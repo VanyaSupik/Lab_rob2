@@ -9,7 +9,6 @@ public class Main {
         autoSalon.cars();
         System.out.println("Площа автосалону: " + autoSalon.square());//Викликав методи
         System.out.println(autoSalon.square(30,25));
-        AutoSalon.about(2003,"Opel","Audi","BMW");
         autoSalon.salon(4.0,3);//Метод посилкового типу
 
         System.out.println();
