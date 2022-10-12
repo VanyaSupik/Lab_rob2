@@ -31,13 +31,7 @@ public class AutoSalon {
         return length*width;//Перевизначив типізований метод
 
     }
-    static void about( double yearsCars,String...oldCars){
-        if(yearsCars<2004) {
-            System.out.println("Старий автомобіль " + oldCars);
-        }else {
-            System.out.println("Новий автомобіль");
-        }
-    }
+    
     AutoSalon salon(double m,int n){
         AutoSalon autoSalon = new AutoSalon(length-m,width-m,numberOfCars-n);//Метод посилкового типу
         return autoSalon;
