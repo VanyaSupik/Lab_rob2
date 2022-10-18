@@ -10,7 +10,7 @@ public class Main {
         System.out.println("Площа автосалону: " + autoSalon.square());//Викликав методи
         System.out.println(autoSalon.square(30,25));
         autoSalon.salon(4.0,3);//Метод посилкового типу
-        autoSalon.about(2020,"Camaro","Ford","Reno");
+        autoSalon.about(2020,"Reno");
 
         System.out.println();
 
@@ -27,7 +27,7 @@ public class Main {
         s.experienced();
         System.out.println("Імя та Прізвище продавця: " + s.props());
         s.experienced(11);
-        s.about(10000,"Fiat","Mazda","Ford-Mustang");//Метод із статичним імям
+        s.about(10000,4);//Метод із статичним імям
 
 
     }
