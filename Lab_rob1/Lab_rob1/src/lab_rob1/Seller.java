@@ -29,8 +29,8 @@ public class Seller {
             System.out.println("Зарплата не змінилася "+ salary);
         }
     }
-    void about(int premium,String...soldCars){
-        if(soldCars.length == 3){
+    void about(int premium, int soldCars){
+        if(soldCars >= 3){
             System.out.println("Продавцю нарахована премія "+premium);
         }else {
             System.out.println("Без премії");//Метод із статичним імям
