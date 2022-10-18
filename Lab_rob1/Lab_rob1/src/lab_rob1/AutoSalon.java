@@ -35,11 +35,11 @@ public class AutoSalon {
         AutoSalon autoSalon = new AutoSalon(length-m,width-m,numberOfCars-n);//Метод посилкового типу
         return autoSalon;
     }
-    void about(int years,String...brands){
+    void about(int years,String brands){
         if(years<2019){
-            System.out.println("Марки старих автомобілів: "+brands);
+            System.out.println("Марка старого автомобіля: "+brands);
         }else {
-            System.out.println("Немає старих автомобілів");
+            System.out.println("Немає старого автомобіля");
         }
     }
 }
